@@ -1,0 +1,26 @@
+{
+  "name": "zeppelin-translator-spell",
+  "description": "Translate text using Google Translator API",
+  "version": "0.0.1",
+  "main": "index",
+  "author": "1ambda",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "whatwg-fetch": "^2.0.1",
+    "zeppelin-spell": "*"
+  },
+  "helium": {
+    "icon": "<img width:\"20\" height=\"20\" class=\"icon icons8-Globe\" src=\"data:image/png;base64,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\" >",
+    "config": {
+      "access-token": {
+        "type": "string",
+        "description": "access token for Google Translation API",
+        "defaultValue": "EXAMPLE-TOKEN"
+      }
+    },
+    "spell": {
+      "magic": "%translator",
+      "usage": "%translator source=<source> target=<target> <TEXT>"
+    }
+  }
+}
